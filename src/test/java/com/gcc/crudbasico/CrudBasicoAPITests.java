@@ -87,7 +87,7 @@ class CrudBasicoAPITests {
 			.get()
 		.then()
 			.statusCode(HttpStatus.OK.value())
-			.body("content", hasSize(5));
+			.body("content", hasSize(6));
 	}
 	
 	@Test
