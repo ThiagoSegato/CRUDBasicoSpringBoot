@@ -7,6 +7,7 @@
 
 #### Modelo entidade relacionamento
 <div align="justify">Foi utilizado um modelo de contrato musical voltado para bandas de rock. Caso seja cadastrada uma banda de sertanejo será lançada uma exceção GeneroInvalidoException :)</div>
+![image](https://user-images.githubusercontent.com/26276218/130708695-bed7ed55-5687-499e-a64b-d0635d6ea8ce.png)
 
 #### Links úteis 
 Arquivo de especificação OpenAPI - http://localhost:8080/v2/api-docs<br>
