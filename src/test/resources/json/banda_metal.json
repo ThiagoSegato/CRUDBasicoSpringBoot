@@ -1,0 +1,9 @@
+{
+  "nome": "Alice in Chains",
+  "genero": "METAL",
+  "integrantes": [
+    { "musicoApelido": "Chris Cornell", "instrumento": "VOCAL" },
+    { "musicoApelido": "Kurt Cobain", "instrumento": "GUITARRA" },
+    { "musicoApelido": "Kurt Cobain", "instrumento": "VOCAL" }
+  ]
+}
