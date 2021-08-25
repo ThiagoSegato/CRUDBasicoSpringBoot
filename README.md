@@ -4,6 +4,7 @@
 #### Desenvolvimento / Testes de Integração e de API
 <div align="justify">Em desenvolvimento o banco de dados é utilizado na forma de arquivo (file:~/crudbasico) criando-o na primeira execução do projeto. Através do primeiro versionamento criada a estrutura e no segundo, o povoamento do banco de dados. Já em ambiente de testes é criado na forma de memória (mem:test).</div>
 
+
 #### Modelo entidade relacionamento
 <div align="justify">Foi utilizado um modelo de contrato musical voltado para bandas de rock. Caso seja cadastrada uma banda de sertanejo será lançada uma exceção GeneroInvalidoException :)</div>
 
