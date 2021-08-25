@@ -1,4 +1,4 @@
-## CRUD básico com Spring Boot IMG_CIRCLE_CI
+## CRUD básico com Spring Boot [![ThiagoSegato](https://circleci.com/gh/ThiagoSegato/CRUDBasicoSpringBoot.svg?style=shield)]
 Utilizado o banco de dados H2 para maior facilidade na instalação do projeto, juntamente com o controle de versionamento Flyway. Especificação OpenAPI gerada através da biblioteca SpringFox com ferramenta SwaggerUI.
 
 ### Desenvolvimento / Testes de Integração e de API
