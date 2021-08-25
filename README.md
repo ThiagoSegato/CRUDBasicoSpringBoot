@@ -7,7 +7,7 @@
 ![ThiagoSegato](https://user-images.githubusercontent.com/26276218/130708695-bed7ed55-5687-499e-a64b-d0635d6ea8ce.png)
 
 #### Desenvolvimento / Testes de Integração e de API
-<div align="justify">Em desenvolvimento o banco de dados é utilizado na forma de arquivo (file:~/crudbasico) criando-o na primeira execução do projeto. Através do primeiro versionamento criada a estrutura e no segundo, o povoamento do banco de dados. Já em ambiente de testes é criado na forma de memória (mem:test).</div>
+<div align="justify">Em desenvolvimento o banco de dados é utilizado na forma de arquivo (file:~/crudbasico) criando-o na primeira execução do projeto. Através do primeiro versionamento é criada a estrutura e no segundo, o povoamento do banco de dados. Já em ambiente de testes é utilizado na forma de memória (mem:test).</div>
 
 #### Links úteis 
 Arquivo de especificação OpenAPI - http://localhost:8080/v2/api-docs<br>
