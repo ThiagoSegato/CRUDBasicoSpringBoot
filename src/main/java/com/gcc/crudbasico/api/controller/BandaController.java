@@ -62,8 +62,7 @@ public class BandaController {
 	@ApiOperation("Atualiza uma banda por Id")
 	@PutMapping("/{id}")
 	@Transactional
-	public ResponseEntity<BandaDto> alterar(@PathVariable("id") Banda banda,
-										 	    @RequestBody @Validated BandaForm form) {
+	public ResponseEntity<BandaDto> alterar(@PathVariable("id") Banda banda, @RequestBody @Validated BandaForm form) {
 		bandaService.update(banda, form);	
 		return ResponseEntity.ok(new BandaDto(banda));
 	}
@@ -78,8 +77,7 @@ public class BandaController {
 	
 	@ApiOperation("Cadastra um integrante de uma banda por Id")
 	@PostMapping("/{id}/integrante")
-	public ResponseEntity<IntegranteDto> adicionarIntegrante(@PathVariable("id") Banda banda,
-										 	  			  @RequestBody @Validated IntegranteForm integranteForm) {
+	public ResponseEntity<IntegranteDto> adicionarIntegrante(@PathVariable("id") Banda banda, @RequestBody @Validated IntegranteForm integranteForm) {
 		var integrante = this.bandaService.insereIntegrante(banda, integranteForm);
 		return ResponseEntity.ok(new IntegranteDto(integrante));
 	}
